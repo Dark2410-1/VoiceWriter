@@ -7,7 +7,7 @@ from asyncio import run
 
 from ovozlar import generate_speech, VOICES
 
-TOKEN = "8598366992:AAFhFi7dYuyXobYJr_HEU7E0BNHCnXHBnA4"
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
